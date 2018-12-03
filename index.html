@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Escuela de cocina</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="index">
+  <!-- padding en el eje y -->
+  <header class="header py-5 encabezado">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-4 col-8 mb-4 mb-md-0">
+          <a href="index.html">
+            <img src="img/logo.svg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-8">
+          <!-- en qué tamaño se expande el menú -->
+          <nav class="navbar navbar-expand-md navbar-light justify-content-center">
+            <!-- data-toggle indica qué hacer y data-target a quién aplicarlo -->
+            <button class="navbar-toggler mb-4" data-toggle="collapse" data-target="#nav_principal" aria-expanded="false" type="button">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- collapse oculta el menú -->
+            <div id="nav_principal" class="collapse navbar-collapse justify-content-center justify-content-lg-end text-center text-uppercase">
+              <a href="nosotros.html" class="nav-link active">Nosotros </a>
+              <a href="blog.html" class="nav-link">Blog </a>
+              <a href="clases.html" class="nav-link">Clases </a>
+              <a href="galeria.html" class="nav-link">Galería </a>
+              <a href="contacto.html" class="nav-link">Contacto </a>
+            </div><!-- nav_principal -->
+          </nav>
+        </div><!-- col-md-8 -->
+      </div>
+    </div><!-- container -->
+  </header> <!-- header-->
+
+  <div class="container-fluid imagenes-principales">
+    <div class="row imagen-superior imagen">
+      <div class="col-md-6 bg-primary">
+        <div class="row justify-content-center align-items-center h-100">
+          <div class="col-sm-8 col-md-6">
+            <div class="contenido text-center text-light py-3">
+              <h2 class="text-uppercase">20 Años de experiencia</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores totam blanditiis soluta illo, i aliquam ex voluptatem minus dicta animi cum laudantium!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 bg-vino"></div>
+    </div><!-- row-->
+    <div class="row imagen-inferior imagen">
+      <div class="col-md-6 bg-secondary">
+        <div class="row justify-content-center align-items-center h-100">
+          <div class="col-sm-8 col-md-6">
+            <div class="contenido text-center py-3">
+              <h2 class="text-uppercase">Sobre nosotros</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores totam blanditiis soluta illo, i aliquam ex
+                voluptatem minus dicta animi cum laudantium!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 bg-comida"></div>
+    </div>
+  </div>
+  <!-- Por qué estudiar con nosotros -->
+  <div class="container">
+    <section class="nosotros mt-5">
+      <h2 class="text-center mb-5 separador">¿Por qué estudiar con nosotros?</h2>
+      <div class="row">
+        <div class="col-md-4 text-center informacion">
+          <img src="img/icono_chef.png" alt="Chef" class="img-fluid mb-3"> 
+          <h3>Chef's especialistas</h3>
+          <p>Los mejores chef's que han trabajo en los mejores restaurantes de Europa.</p>
+        </div>
+        <div class="col-md-4 text-center informacion">
+          <img src="img/icono_vino.png" alt="Vino" class="img-fluid mb-3"> 
+            <h3>Incluye todo sobre bebidas</h3>
+          <p>Además de la cocina, incluimos en el programa todo lo relacionado a bebidas.</p>
+        </div>
+        <div class="col-md-4 text-center informacion">
+          <img src="img/icono_menu.png" alt="Menú" class="img-fluid mb-3"> 
+          <h3>Siempre actualizado</h3>
+          <p>El programa se actualiza constantemente con nuestros platillos y técnicas.</p>
+        </div>        
+      </div>
+    </section>
+  </div>
+  <!-- Clases -->
+  <section class="clases mt-5 py-5">
+    <h1 class="separador text-center mb-3">
+      Próximas clases
+    </h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-4">
+            <img src="img/clase1.jpg" alt="" class="card-img-top ">
+            <div class="card-meta bg-primary p-3 text-light d-flex justify-content-between align-items-center">
+              <p class="m-0">12/12/2018 18:00</p>
+              <span class="badge badge-secondary p-2">$300</span>
+            </div>
+            <div class="card-body card-title">
+              <h3 class="card-title">Comida italiana para principiantes</h3>
+              <p class="card-subtitle mb-2">Aprende las bases de la comida italiana con este curso.</p>
+              <p class="card-tex">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sunt inventore eveniet harum fugit illo
+                sed debitis eius dolor deserunt cum aspernatur nam odit, deleniti voluptas in nemo dignissimos molestias!
+              </p>
+              <a href="clase.html" class="btn btn-primary d-block ">Más información</a>
+              <!-- <a href="clase.html" class="btn btn-primary d-block d-md-inline">Más información</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-4">
+            <img src="img/clase2.jpg" alt="" class="card-img-top ">
+            <div class="card-meta bg-primary p-3 text-light d-flex justify-content-between align-items-center">
+              <p class="m-0">12/12/2018 18:00</p>
+              <span class="badge badge-secondary p-2">$300</span>
+            </div>
+            <div class="card-body card-title">
+              <h3 class="card-title">Planeación de menús para bodas</h3>
+              <p class="card-subtitle mb-2">Añade la planeación de menús para bodas a tus habilidades.</p>
+              <p class="card-tex">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sunt inventore eveniet harum fugit illo
+                sed debitis eius dolor deserunt cum aspernatur nam odit, deleniti voluptas in nemo dignissimos molestias!
+              </p>
+              <a href="clase.html" class="btn btn-primary d-block ">Más información</a>
+              <!-- <a href="clase.html" class="btn btn-primary d-block d-md-inline">Más información</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-4">
+            <img src="img/clase3.jpg" alt="" class="card-img-top ">
+            <div class="card-meta bg-primary p-3 text-light d-flex justify-content-between align-items-center">
+              <p class="m-0">12/12/2018 18:00</p>
+              <span class="badge badge-secondary p-2">$300</span>
+            </div>
+            <div class="card-body card-title">
+              <h3 class="card-title">Postres y bites</h3>
+              <p class="card-subtitle mb-2">Los más deliciosos postres para toda ocasión.</p>
+              <p class="card-tex">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sunt inventore eveniet harum fugit illo
+                sed debitis eius dolor deserunt cum aspernatur nam odit, deleniti voluptas in nemo dignissimos molestias!
+              </p>
+              <a href="clase.html" class="btn btn-primary d-block ">Más información</a>
+              <!-- <a href="clase.html" class="btn btn-primary d-block d-md-inline">Más información</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-4">
+            <img src="img/clase4.jpg" alt="" class="card-img-top ">
+            <div class="card-meta bg-primary p-3 text-light d-flex justify-content-between align-items-center">
+              <p class="m-0">12/12/2018 18:00</p>
+              <span class="badge badge-secondary p-2">$300</span>
+            </div>
+            <div class="card-body card-title">
+              <h3 class="card-title">Comida mexicana</h3>
+              <p class="card-subtitle mb-2">Los más deliciosos burritos que tienes que probar.</p>
+              <p class="card-tex">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sunt inventore eveniet harum fugit illo
+                sed debitis eius dolor deserunt cum aspernatur nam odit, deleniti voluptas in nemo dignissimos molestias!
+              </p>
+              <a href="clase.html" class="btn btn-primary d-block ">Más información</a>
+              <!-- <a href="clase.html" class="btn btn-primary d-block d-md-inline">Más información</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-4">
+            <img src="img/clase5.jpg" alt="" class="card-img-top ">
+            <div class="card-meta bg-primary p-3 text-light d-flex justify-content-between align-items-center">
+              <p class="m-0">12/12/2018 18:00</p>
+              <span class="badge badge-secondary p-2">$300</span>
+            </div>
+            <div class="card-body card-title">
+              <h3 class="card-title">Pinchos de carne</h3>
+              <p class="card-subtitle mb-2">Asados, BBQ y parrilla. Todo lo que puedas comer.</p>
+              <p class="card-tex">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sunt inventore eveniet harum fugit illo
+                sed debitis eius dolor deserunt cum aspernatur nam odit, deleniti voluptas in nemo dignissimos molestias!
+              </p>
+              <a href="clase.html" class="btn btn-primary d-block ">Más información</a>
+              <!-- <a href="clase.html" class="btn btn-primary d-block d-md-inline">Más información</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mb-4">
+            <img src="img/clase6.jpg" alt="" class="card-img-top ">
+            <div class="card-meta bg-primary p-3 text-light d-flex justify-content-between align-items-center">
+              <p class="m-0">12/12/2018 18:00</p>
+              <span class="badge badge-secondary p-2">$300</span>
+            </div>
+            <div class="card-body card-title">
+              <h3 class="card-title">Healthy food</h3>
+              <p class="card-subtitle mb-2">Aprende a preparar las mejores y más saludables ensaladas.</p>
+              <p class="card-tex">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sunt inventore eveniet harum fugit illo
+                sed debitis eius dolor deserunt cum aspernatur nam odit, deleniti voluptas in nemo dignissimos molestias!
+              </p>
+              <a href="clase.html" class="btn btn-primary d-block ">Más información</a>
+              <!-- <a href="clase.html" class="btn btn-primary d-block d-md-inline">Más información</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Más información -->
+  <div class="licenciatura">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-8">
+          <div class="contenido text-light text-center">
+            <h2>¿ Quieres ser chef ?</h2>
+            <p class="display-4">
+              Estudia la licenciatura para convertirte en Chef con nosotros.
+            </p>
+            <a href="contacto.html" class="btn btn-primary text-uppercase">Más información</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <nav class="nav text-uppercase d-flex flex-column flex-md-row text-center text-md-left">
+            <a href="nosotros.html" class="nav-link">Nosotros </a>
+            <a href="blog.html" class="nav-link">Blog </a>
+            <a href="clases.html" class="nav-link">Clases </a>
+            <a href="galeria.html" class="nav-link">Galería </a>
+            <a href="contacto.html" class="nav-link">Contacto </a>
+          </nav>
+        </div>
+        <div class="col-md-6">
+          <p class="text-center text-md-right copyright mt-4 mt-md-0">Todos los derechos reservados</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
